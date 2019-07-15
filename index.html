@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Knight's Tour</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+</head>
+
+<body>
+	<div id='out'></div>
+	<div id='ctrls'>
+		<span>Cells: </span><input id="cellCount" value="8" type="number" max="250" min="5"><br />
+		<span>Delay: </span><input id="delay" value="500" type="number" max="2000" min="0"><br />
+		<span>Knight X: </span><input id="knightx" value="-1" type="number" max="250" min="-1"><br />
+		<span>Knight Y: </span><input id="knighty" value="-1" type="number" max="250" min="-1"><br />
+		<button id="start">Start</button>
+		<div id='log'></div>
+		<div id="path"></div>
+	</div>
+	<script src="./src/tour_bt.js" type="module"></script>
+</body>
+
+</html>
