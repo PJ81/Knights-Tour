@@ -21,6 +21,12 @@ canvas {
   float: left;
 }
 
+#container {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(2, auto);
+}
+
 #ctrls {
   margin-top: 40px;
   text-align: left;
@@ -37,8 +43,18 @@ canvas {
   font-size: 22px;
 }
 
-#path {
+#results {
+  width: 100%;
+}
+
+#path,
+#log {
   margin-top: 10px;
   font-size: 12px;
   line-height: 16px;
+  text-align: center;
+}
+
+#log {
+  font-size: 20px;
 }
